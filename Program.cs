@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Specialized;
-using System.IO;
-using System.Text;
-using System.Threading.Tasks;
-using System.Collections.Generic;
-using System.Net;
-using System.Linq;
+﻿using System.Threading.Tasks;
 
 namespace netcore
 {
@@ -22,7 +15,6 @@ namespace netcore
                 .Build()
                 .StartAsync();
         }
-
         public static RequestDelegate FooMiddleware(RequestDelegate next)
         => async context =>
         {
@@ -55,5 +47,5 @@ namespace netcore
 
 
 
-    
+
 }

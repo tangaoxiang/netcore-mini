@@ -1,5 +1,4 @@
 using System.Threading.Tasks;
-
 public delegate Task RequestDelegate(HttpContext contex);
 public class HttpContext
 {
