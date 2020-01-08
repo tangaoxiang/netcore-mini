@@ -1,0 +1,1 @@
+    public interface IFeatureCollection : IDictionary<Type, object> { }
