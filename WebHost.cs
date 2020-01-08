@@ -1,4 +1,6 @@
-    public class WebHost : IWebHost
+using System.Threading.Tasks;
+
+public class WebHost : IWebHost
     {
         private readonly IServer _server;
         private readonly RequestDelegate _handler;

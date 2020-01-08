@@ -1,4 +1,7 @@
-    public class HttpResponse
+using System.Collections.Specialized;
+using System.IO;
+
+public class HttpResponse
     {
         private readonly IHttpResponseFeature _feature;
 

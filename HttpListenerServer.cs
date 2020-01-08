@@ -1,5 +1,10 @@
 
-    public class HttpListenerServer : IServer
+using System;
+using System.Linq;
+using System.Net;
+using System.Threading.Tasks;
+
+public class HttpListenerServer : IServer
     {
         private readonly HttpListener _httpListener;
         private readonly string[] _urls;

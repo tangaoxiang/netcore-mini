@@ -1,4 +1,8 @@
-    public class HttpRequest
+using System;
+using System.Collections.Specialized;
+using System.IO;
+
+public class HttpRequest
     {
         private readonly IHttpRequestFeature _feature;
 
